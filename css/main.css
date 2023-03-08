@@ -119,11 +119,158 @@ main img{
 
 .hoverfoto{
     display: none;
+    position: absolute;
+    
 }
 
 
-.img:hover + .hoverfoto{
+:hover + .hoverfoto{
     display: block;
+   
 }
 
 
+
+.hoverfoto1{
+    left: 160px;
+
+}
+
+
+.hoverfoto3{
+    left: 681px;
+
+}
+
+
+
+
+.box-sconti-sostenibilità h6{
+    position: absolute;
+    top: 400px;
+}
+
+
+
+.scontoperc{
+    background-color: red;
+    color: white;
+
+}
+
+
+.sostenibilità{
+    left: 190px;
+    background-color: green;
+    color: white;
+}
+
+
+
+.box-sconti-sostenibilità2 h6{
+    position: absolute;
+    top: 900px;
+}
+
+
+.sostenibilità2{
+    left: 682px;
+    background-color: green;
+    color: white;
+}
+
+
+
+.quadrato-cuore{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    top: 600px;
+    
+
+
+}
+
+
+
+i{  
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+
+.cuore-left1{
+    left: 362px;
+}
+
+
+.cuore-left2{
+    left: 622px;
+
+}
+
+
+.cuore-left3{
+    left: 882px;
+}
+
+
+
+.quadrato-cuore-fila1{
+    top: 104px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-container4{
+    min-height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+footer{
+    color: white;
+}
+
+
+footer h6{
+    display: inline-block;
+}
+
+
+
+.margin-siti{
+    margin: 0;
+    font-size: small;
+}
